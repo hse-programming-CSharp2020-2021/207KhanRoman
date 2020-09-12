@@ -12,7 +12,11 @@ namespace Homework_2
 {
     class Program
     {
-        public static void Metod()
+        public static void Metod1(out double drop, out int cel, double x)
+        {
+
+        }
+        public static void Metod2()
         {
 
         }
@@ -23,6 +27,9 @@ namespace Homework_2
             // 2.1 Ввод
             do
             {
+                double x, drop, sqrt, square;
+                int cel;
+
                 // 2.4 Эпилог
                 Console.WriteLine("Для выхода из программы нажмите Enter");
                 Key = Console.ReadKey();

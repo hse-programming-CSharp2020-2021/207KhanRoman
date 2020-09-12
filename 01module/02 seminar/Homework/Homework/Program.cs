@@ -21,7 +21,7 @@ namespace Homework_2
         static void Main(string[] args)
         {
             // 1.2
-            ConsoleKeyInfo Key;
+            ConsoleKeyInfo Key; // для рекурсивности программы(увидел в презентации)
             // 2.1 Ввод
             do
             {
