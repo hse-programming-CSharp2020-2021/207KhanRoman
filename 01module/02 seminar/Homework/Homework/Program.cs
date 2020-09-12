@@ -12,9 +12,11 @@ namespace Homework_2
 {
     class Program
     {
-        public static void Metod()
+        public static double Metod(double x)
+            // 2.2 Обработка
         {
-
+            double f = x*(x*(x*(12*x+9)-3)+2) - 4;
+            return f;
         }
         static void Main(string[] args)
         {
@@ -23,6 +25,12 @@ namespace Homework_2
             // 2.1 Ввод
             do
             {
+                double x;
+                do {
+                    Console.Write("Введите Ваше X: ");
+                } while (!double.TryParse(Console.ReadLine(), out x));
+                // 2.3 Вывод
+                Console.WriteLine($"Значение полинома: {Program.Metod(x)}");
                 // 2.4 Эпилог
                 Console.WriteLine("Для выхода из программы нажмите Enter");
                 Key = Console.ReadKey();

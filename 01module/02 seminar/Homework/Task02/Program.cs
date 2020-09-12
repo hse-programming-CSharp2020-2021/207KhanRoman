@@ -6,13 +6,13 @@
     Группа: 207ПИ/2
     Студент: Хан Роман
     Дата: 12.09.2020
-    Задача:
+    Задача: 
 */
 namespace Homework_2
 {
     class Program
     {
-        const int N = 3;
+        const int N = 3; // Меняя эту константу, мы меняем кол-во цифр в числе
         public static string Metod1(int p)
         {
             /* 2.2 обработка 
@@ -42,7 +42,7 @@ namespace Homework_2
             ConsoleKeyInfo Key;
             do
             {
-                int p;
+                int p; //вводимое число
                 // 2.1 Ввод
                 do
                 {
