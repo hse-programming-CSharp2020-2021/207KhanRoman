@@ -6,23 +6,23 @@
     Группа: 207ПИ/2
     Студент: Хан Роман
     Дата: 12.09.2020
-    Задача:
+    Задача: Вывести значение полинома - 12x^4+9x^3-3x^2+2x-4
 */
 namespace Homework_2
 {
     class Program
     {
+        // 2.2 Обработка
         public static double Metod(double x)
-            // 2.2 Обработка
         {
             double f = x*(x*(x*(12*x+9)-3)+2) - 4;
             return f;
         }
         static void Main(string[] args)
         {
-            // 1.2
-            ConsoleKeyInfo Key; // для рекурсивности программы(увидел в презентации)
-            // 2.1 Ввод
+            // Для рекурсивности программы(увидел в презентации).
+            ConsoleKeyInfo Key; 
+            // 2.1 Ввод.
             do
             {
                 double x;

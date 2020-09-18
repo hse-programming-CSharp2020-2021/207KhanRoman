@@ -6,7 +6,7 @@
     Группа: 207ПИ/2
     Студент: Хан Роман
     Дата: 12.09.2020
-    Задача:
+    Задача: Получить на вход 4-х значное число и вывести все его цифры в обратном порядке.
 */
 
 namespace Homework_2
@@ -24,7 +24,6 @@ namespace Homework_2
         }
         static void Main(string[] args)
         {
-            // 1.2
             ConsoleKeyInfo Key;
             do
             {

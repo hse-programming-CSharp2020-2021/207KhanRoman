@@ -8,18 +8,19 @@ using System.Security.Cryptography.X509Certificates;
 Группа: 207ПИ/2
 Студент: Хан Роман
 Дата: 12.09.2020
-Задача:
+Задача: Найти аудиторию с наименьшем номером внутри этажа.
 */
 namespace Homework_2
 {
     class Program
     {
-
+        // 2.2 Оработка.
         public static int Metod1(int a, int b, int c)
         {
             int g = Math.Min(Math.Min(a / 100, b / 100), c/100);
             return g;
         }
+        // метод для корректного ввода значения
         public static int P(int p)
         {
             double x;
@@ -32,7 +33,6 @@ namespace Homework_2
         }
         static void Main(string[] args)
         {
-            // 1.2
             ConsoleKeyInfo Key;
             // 2.1 Ввод
             do
@@ -43,11 +43,12 @@ namespace Homework_2
 
                 int g = Program.Metod1(a, b, c);
 
+                // Вывод.
                 if (g == a) Console.WriteLine($"Минимальный номер внутри этажа у 1 - {a}");
                 else if (g == b) Console.WriteLine($"Минимальный номер внутри этажа у 2 - {b}");
                 else Console.WriteLine($"Минимальный номер внутри этажа у 3 - {c}");
 
-                Console.WriteLine();
+
                 // 2.4 Эпилог
                 Console.WriteLine("Для выхода из программы нажмите Enter");
                 Key = Console.ReadKey();

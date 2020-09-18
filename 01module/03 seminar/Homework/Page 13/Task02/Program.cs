@@ -6,12 +6,13 @@
 Группа: 207ПИ/2
 Студент: Хан Роман
 Дата: 12.09.2020
-Задача:
+Задача: Поменять все цифры в 4-х значном чилсе так, чтобы они шли в обратном порядке.
 */
 namespace Homework_3
 {
     class Program
     {
+        // 2.2 Обработка.
         public static int Metod1(int x)
         {
             int x2 = 0;
@@ -23,18 +24,19 @@ namespace Homework_3
         }
         static void Main(string[] args)
         {
-            // 1.2
             ConsoleKeyInfo Key;
-            // 2.1 Ввод
+            // 2.1 Ввод.
             do
             {
                 int x;
                 do {
                     Console.WriteLine("Введите число:");
                 } while (!int.TryParse(Console.ReadLine(), out x));
+
+                // Вывод.
                 Console.WriteLine(Program.Metod1(x));
                 
-                // 2.4 Эпилог
+                // 2.4 Эпилог.
                 Console.WriteLine("Для выхода из программы нажмите Enter");
                 Key = Console.ReadKey();
                 Console.WriteLine("");

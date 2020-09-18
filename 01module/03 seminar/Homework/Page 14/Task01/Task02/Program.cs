@@ -6,12 +6,13 @@
     Группа: 207ПИ/2
     Студент: Хан Роман
     Дата: 12.09.2020
-    Задача:
+    Задача: Вычислить значение выражения
 */
 namespace Homework_2
 {
     class Program
     {
+        // 2.2 Обработка
         public static double G(double x, double y)
         {
             double g;
@@ -20,6 +21,7 @@ namespace Homework_2
             else g = x * y / 2;
             return g;
         }
+        // метод для корректного ввода значения
         public static double P(string p) {
             double x;
             do
@@ -30,7 +32,6 @@ namespace Homework_2
         }
         static void Main(string[] args)
         {
-            // 1.2
             ConsoleKeyInfo Key;
             // 2.1 Ввод
             do
@@ -38,8 +39,9 @@ namespace Homework_2
                 double x = Program.P("x");
                 double y = Program.P("y");
 
+                // 2.3 Вывод.
                 Console.WriteLine($"Значение функции G: {Program.G(x, y)}");
-                // 2.4 Эпилог
+                // 2.4 Эпилог.
                 Console.WriteLine("Для выхода из программы нажмите Enter");
                 Key = Console.ReadKey();
                 Console.WriteLine("");
