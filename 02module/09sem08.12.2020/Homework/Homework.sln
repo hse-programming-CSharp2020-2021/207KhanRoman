@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task01", "Homework\Task01.csproj", "{32224508-427F-4D5F-8386-5C6F41BD457B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task02", "Task02\Task02.csproj", "{AC95D9B0-E4CE-4D12-931B-9DB5B95AE24E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task03", "Task03\Task03.csproj", "{0949E6D7-66C5-4413-9A9F-8988490B362A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32224508-427F-4D5F-8386-5C6F41BD457B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32224508-427F-4D5F-8386-5C6F41BD457B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32224508-427F-4D5F-8386-5C6F41BD457B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32224508-427F-4D5F-8386-5C6F41BD457B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC95D9B0-E4CE-4D12-931B-9DB5B95AE24E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC95D9B0-E4CE-4D12-931B-9DB5B95AE24E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC95D9B0-E4CE-4D12-931B-9DB5B95AE24E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC95D9B0-E4CE-4D12-931B-9DB5B95AE24E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0949E6D7-66C5-4413-9A9F-8988490B362A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0949E6D7-66C5-4413-9A9F-8988490B362A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0949E6D7-66C5-4413-9A9F-8988490B362A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0949E6D7-66C5-4413-9A9F-8988490B362A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E991D7F6-2160-4A1C-A2CD-654795CEC720}
+	EndGlobalSection
+EndGlobal
