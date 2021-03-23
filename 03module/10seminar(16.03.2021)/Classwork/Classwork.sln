@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task01", "Classwork\Task01.csproj", "{9BB30DA5-679B-48D9-B85D-AD49BAC02C74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task03", "Task03\Task03.csproj", "{EE4AC7CA-9C02-49E5-9960-A5DC9D3CEED7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task04", "Task04\Task04.csproj", "{8C7DF0C4-F5BA-4B00-8A83-1254BAAA8FF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BB30DA5-679B-48D9-B85D-AD49BAC02C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BB30DA5-679B-48D9-B85D-AD49BAC02C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BB30DA5-679B-48D9-B85D-AD49BAC02C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BB30DA5-679B-48D9-B85D-AD49BAC02C74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE4AC7CA-9C02-49E5-9960-A5DC9D3CEED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE4AC7CA-9C02-49E5-9960-A5DC9D3CEED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE4AC7CA-9C02-49E5-9960-A5DC9D3CEED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE4AC7CA-9C02-49E5-9960-A5DC9D3CEED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C7DF0C4-F5BA-4B00-8A83-1254BAAA8FF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C7DF0C4-F5BA-4B00-8A83-1254BAAA8FF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C7DF0C4-F5BA-4B00-8A83-1254BAAA8FF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C7DF0C4-F5BA-4B00-8A83-1254BAAA8FF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D86003C-A163-445C-87F9-5A35ED59690C}
+	EndGlobalSection
+EndGlobal
