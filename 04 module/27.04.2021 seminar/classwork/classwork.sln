@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classwork", "classwork\classwork.csproj", "{B0E5B0F4-989D-4D4C-84C1-78E08C51C798}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task03", "Task03\Task03.csproj", "{D75C869C-4B6A-4BCB-ADF6-ECB0001EA05D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task04", "Task04\Task04.csproj", "{7E79C1E4-05AB-4753-9F65-1793CBF4EC2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0E5B0F4-989D-4D4C-84C1-78E08C51C798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E5B0F4-989D-4D4C-84C1-78E08C51C798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E5B0F4-989D-4D4C-84C1-78E08C51C798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E5B0F4-989D-4D4C-84C1-78E08C51C798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D75C869C-4B6A-4BCB-ADF6-ECB0001EA05D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75C869C-4B6A-4BCB-ADF6-ECB0001EA05D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75C869C-4B6A-4BCB-ADF6-ECB0001EA05D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75C869C-4B6A-4BCB-ADF6-ECB0001EA05D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E79C1E4-05AB-4753-9F65-1793CBF4EC2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E79C1E4-05AB-4753-9F65-1793CBF4EC2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E79C1E4-05AB-4753-9F65-1793CBF4EC2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E79C1E4-05AB-4753-9F65-1793CBF4EC2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5211823F-F203-4BB5-B7E2-D265BC8831EF}
+	EndGlobalSection
+EndGlobal
